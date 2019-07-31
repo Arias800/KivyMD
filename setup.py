@@ -3,7 +3,7 @@ from distutils.core import setup
 
 setup(
     name="kivymd",
-    version=version,
+    version="0.1",
     description="Set of widgets for Kivy inspired by Google's Material " "Design",
     author="Andrés Rodríguez, author fork - HeaTTheatR",
     author_email="andres.rodriguez@lithersoft.com, email author fork "
