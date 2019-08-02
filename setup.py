@@ -1,8 +1,9 @@
-import re, os
+import re
+from os import path
 from distutils.core import setup
 
-VERSION_FILE = "kivymd/__init__.py"
-ver_file_data = open(os.path.join(VERSION_FILE), "rt").read()
+VERSION_FILE = path.join('kivymd', '__init__.py')
+ver_file_data = open(VERSION_FILE, "rt").read()
 ver_regex = r"^__version__ = ['\"]([^'\"]*)['\"]"
 ver_reg_search = re.search(ver_regex, ver_file_data, re.M)
 
