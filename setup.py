@@ -1,10 +1,10 @@
 import re
 from distutils.core import setup
-from kivymd.__init__ import __version__
+from kivymd.__init__ import __version__ as version
 
 setup(
     name="kivymd",
-    version=__version__,
+    version=version,
     description="Set of widgets for Kivy inspired by Google's Material " "Design",
     author="Andrés Rodríguez, author fork - HeaTTheatR",
     author_email="andres.rodriguez@lithersoft.com, email author fork "
